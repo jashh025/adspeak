@@ -1,7 +1,10 @@
-import { MetadataRoute } from 'next';
+import type { MetadataRoute } from 'next';
+
+export const dynamic = 'force-static';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+  const baseUrl = 'https://jashh025.github.io/adspeak';
+
   return {
     rules: {
       userAgent: '*',
