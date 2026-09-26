@@ -42,7 +42,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 group">
           <AppLogo size={32} />
-          <span className="font-bold text-lg tracking-tight text-foreground hidden sm:block">
+          <span className="font-bold text-lg tracking-tight text-foreground-logo hidden sm:block">
             Ads<span className="text-gradient-red">Peak</span>
           </span>
         </Link>
