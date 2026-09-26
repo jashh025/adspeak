@@ -297,6 +297,10 @@ img.flex-shrink-0.logo-image{
   border-radius: 40px;
 }
 
+.text-foreground-logo {
+    color: var(--foreground-logo) !important;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: #040508; }
