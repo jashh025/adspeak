@@ -84,14 +84,6 @@ const services: Service[] = [
   desc: 'High-quality edits for Reels, advertisements, and promotional content that stop the scroll.',
   features: ['Reels & short-form editing', 'Color grading & sound design', 'Motion graphics & captions', 'Platform-optimized exports'],
   color: 'blue'
-},
-{
-  tag: '09',
-  icon: 'PrinterIcon',
-  title: 'Print & Design',
-  desc: 'Premium marketing creatives — flyers, posters, and banners — for both digital and offline campaigns.',
-  features: ['Flyer & poster design', 'Banner & hoarding design', 'Digital ad creatives', 'Brand-consistent print materials'],
-  color: 'red'
 }];
 
 
