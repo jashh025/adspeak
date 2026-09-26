@@ -292,6 +292,10 @@
   max-height: 300px;
 }
 
+img.flex-shrink-0.logo-image{
+  border-radius: 40px;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: #040508; }
